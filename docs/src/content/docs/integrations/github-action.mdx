@@ -99,9 +99,6 @@ jobs:
           node-version: 24
           cache: pnpm
 
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v5
-
       - run: pnpm install
 
       - name: Generate Lunaria Overview
